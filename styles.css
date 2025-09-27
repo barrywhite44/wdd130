@@ -1,0 +1,45 @@
+/* Main content adjustments */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Profile image inside main */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* General paragraph spacing */
+p {
+  padding: 0;
+}
+
+/* Aside styling */
+aside {
+  width: 250px;
+  margin: 1rem auto;
+  border: 2px solid #333;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  color: #222;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Aside image should maintain aspect ratio */
+aside img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid #333;
+  text-align: center;
+  padding: 1rem 0;
+}
