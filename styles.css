@@ -1,15 +1,35 @@
-/* Main content adjustments */
+/* Navigation bar */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+/* Main content */
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
 }
 
+/* Heading */
+h1 {
+  color: #333;
+}
+
 /* Profile image inside main */
 main img {
   width: 150px;
   height: auto;
-  border-radius: 10px;
+  border: 2px solid #333;
+  padding: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
 /* General paragraph spacing */
@@ -25,15 +45,12 @@ aside {
   padding: 1rem;
   background-color: #f5f5f5;
   color: #222;
-  text-align: center;
-  border-radius: 10px;
 }
 
-/* Aside image should maintain aspect ratio */
+/* Aside image */
 aside img {
   width: 200px;
   height: auto;
-  border-radius: 8px;
 }
 
 /* Footer styling */
@@ -41,5 +58,4 @@ footer {
   margin-top: 2rem;
   border-top: 2px solid #333;
   text-align: center;
-  padding: 1rem 0;
 }
